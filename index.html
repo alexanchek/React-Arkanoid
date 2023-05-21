@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arkanoid</title>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <canvas id="playfield" width="1000" height="600"></canvas>
+      <img src="./src/images/background.png" alt="" id="background">
+      <div id="display">
+        <div id="score"></div>
+        <button id="start">Start!</button>
+        <div id="info">Press Play!</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
